@@ -1,23 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import Toggle from './toggle';
+import Header from './components/Header';
+import Banner from './components/Banner';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   
+   <div className="max-w-[100%] w-[95%] md:w-[70%] m-auto">
+   <Header />
+   <Banner />
+   <hr className='mt-[10%] border-black-600 dark:border-gray-600'></hr>
+   <Projects />
+
+   <hr className='mt-[10%] border-black-600 dark:border-gray-600'></hr>
+   <Contact />
+   
     </div>
   );
 }
