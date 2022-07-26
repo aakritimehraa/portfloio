@@ -27,7 +27,7 @@ function Banner() {
         <div className=' md:hidden flex mt-10'>
 
         <AiFillLinkedin fontSize='1.25rem'  color={theme === 'dark' ? 'white' :'black'}/>
-        <BsGithub fontSize='1.25rem'  color={theme === 'dark' ? 'white' :'black'} className='icon' /> <p className=' px-2'></p>
+        <BsGithub fontSize='1.25rem'  color={theme === 'dark' ? 'white' :'black'} className='icon' /> 
 <AiFillMail  fontSize='1.25rem'  color={theme === 'dark' ? 'white' :'black'} className='icon' /> 
 </div>
         <div  className='flex mt-10'>
