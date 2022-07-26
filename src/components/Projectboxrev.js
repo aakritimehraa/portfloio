@@ -5,7 +5,7 @@ function Projectboxrev({description , name, tags , image}) {
 
 
 
-    <div className='project-box flex justify-between items-center flex-col lg:flex-row-reverse text-justify
+    <div id='projects' className='project-box flex justify-between items-center flex-col lg:flex-row-reverse text-justify
     w-[100%] md:w-[100%] mb-40 dark:text-white'>
 <img className='object-contain max-h-[300px] md:max-h-[400px] w-[90%] pt-10 mt-10 mr-[10px] flex-[50%] flex-shrink' src={image} />
 <div className='max-w-[100%] w-[100%] xl:w-[50%]'>

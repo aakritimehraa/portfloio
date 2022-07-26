@@ -11,7 +11,7 @@ function Contact() {
 
 
 
-        <div className='w-[100%] mt-[5%] mb-[5%]'>
+        <div id='contacts' className='w-[100%] mt-[5%] mb-[5%]'>
             <h3 className='project text-[3.5rem] font-semibold text-[#9845e8] text-center dark:text-[#9845e8]' style={{ fontFamily: 'Poppins' }}>Contact</h3>
             <p className='text-xl text-center dark:text-white mb-20' style={{fontFamily:'Poppins'}}> Lets get in Touch.</p>
 
