@@ -27,7 +27,7 @@ function Header() {
         <li onClick={() => setMenu(false)} className='ml-[4%]  font-semibold  hover:border-pink-100 hover:border-b-2 transition-all'><p className=' border-pink-100 '>Home</p></li>
         <a href='#projects'> <li onClick={() => setMenu(false)} className='ml-[4%]  font-semibold  hover:border-pink-100 hover:border-b-2 transition-all'>Projects</li> </a>
          <a href='#contacts'><li onClick={() => setMenu(false)} className='ml-[4%]  font-semibold hover:border-pink-100 hover:border-b-2 transition-all'>Contact</li> </a>
-          <li onClick={() => setMenu(false)} className='ml-[4%]  font-semibold hover:border-pink-100 hover:border-b-2  transition-all'>Resume</li>
+         <a href={resume} target='_blank' >    <li onClick={() => setMenu(false)} className='ml-[4%]  font-semibold hover:border-pink-100 hover:border-b-2  transition-all'>Resume</li></a>
             <li>          <Toggle /> 
             </li>
           </ul>
