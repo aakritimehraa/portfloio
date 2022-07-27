@@ -41,13 +41,13 @@ function Contact() {
                 <div className='hidden xl:block mt-10'>
 
                     <ul className='flex justify-start items-start flex-col dark:text-white'>
-                        <li className='flex justify-center items-center mb-10'><BsFillTelephoneFill fontSize='1.25rem' color={theme === 'dark' ? 'white' : 'black'} />
-                            <p className='font-semibold ml-2'>12345</p>
-                        </li>
+                       <a href='tel:9877476584'><li className='flex justify-center items-center mb-10'><BsFillTelephoneFill fontSize='1.25rem' color={theme === 'dark' ? 'white' : 'black'} />
+                            <p className='font-semibold ml-2'>9877476584</p>
+                        </li> </a>
 
-                        <li className='flex justify-center items-center'> <AiFillMail fontSize='1.25rem' color={theme === 'dark' ? 'white' : 'black'} />
+                        <a href='mailto:aakritimehrasa@gmail.com'> <li className='flex justify-center items-center'> <AiFillMail fontSize='1.25rem' color={theme === 'dark' ? 'white' : 'black'} />
                             <p className='font-semibold ml-2'> aakritimehrasa@gmail.com</p>
-                        </li>
+                        </li></a>
 
 
 
@@ -56,8 +56,8 @@ function Contact() {
 
                     <div className='flex mt-10'>
 
-                        <BsLinkedin fontSize='1.25rem' color={theme === 'dark' ? 'white' : 'black'} />
-                        <BsGithub fontSize='1.25rem' color={theme === 'dark' ? 'white' : 'black'} className='icon' />
+                    <a href='https://www.linkedin.com/in/aakriti-mehra-7687021b7/' target='_blank'>  <BsLinkedin fontSize='1.25rem' color={theme === 'dark' ? 'white' : 'black'} /></a>
+                    <a href='https://github.com/aakritimehraa' target='_blank'>   <BsGithub fontSize='1.25rem' color={theme === 'dark' ? 'white' : 'black'} className='icon' /></a>
 
                     </div>
 

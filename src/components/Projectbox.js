@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Projectbox({description , name, tags , image}) {
+function Projectbox({description , name, tags , image , link , g}) {
   return (
 
 
@@ -14,6 +14,8 @@ function Projectbox({description , name, tags , image}) {
 <p className='sm:text-xl md:leading-[2rem] xl:leading-[3rem] font-[400] md:tracking-[1.4px]' style={{fontFamily: 'Inter '}}>
 {description}
 </p>
+<p className='sm:text-xl md:leading-[2rem] xl:leading-[3rem] font-[400] md:tracking-[1.4px]'>  <a href={link} target='_blank'><span className='mr-2 opacity-[0.8]  hover:opacity-[1]'>View Live </span></a>  | <a href={g} target='_blank' ><span className='ml-2 opacity-[0.8]  hover:opacity-[1]'> Github</span></a></p>
+
 <p className='mt-5 mb-2'>Made with-</p>
 <ul className='flex justify-start items-center'>
     {tags.map(title => {

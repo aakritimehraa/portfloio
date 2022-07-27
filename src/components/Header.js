@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-
 import Toggle from '../toggle'
 import { ImMenu } from 'react-icons/im';
 import { AiOutlineClose } from 'react-icons/ai';
 import { ThemeContext } from '../themeContext.js';
+import resume from '../pdf/aakritimehraresume.pdf'
 
 function Header() {
     const [menu, setMenu] = useState(false)
@@ -43,7 +43,7 @@ function Header() {
   <li className='mr-[20px] ml-[20px]  hover:border-[#9845e8] hover:border-b-2 transition-all'>Home</li>
   <a href='#projects'><li className='mr-[20px] ml-[20px]      hover:border-[#9845e8] hover:border-b-2 transition-all'>Projects</li></a>
    <a href='#contacts'><li className='mr-[20px] ml-[20px]   hover:border-[#9845e8] hover:border-b-2 transition-all'>Contact</li></a>
-<li className='mr-[20px]  ml-[20px]  hover:border-[#9845e8] hover:border-b-2 transition-all'>Resume</li>
+<a href={resume} target='_blank' > <li className='mr-[20px]  ml-[20px]  hover:border-[#9845e8] hover:border-b-2 transition-all'>Resume</li></a>
 <li className='ml-[20px]'><Toggle />
 </li>
 

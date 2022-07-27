@@ -5,7 +5,6 @@ import { CgArrowLongRight } from 'react-icons/cg';
 import { ThemeContext } from '../themeContext';
 
 
-
 function Banner() {
     const { theme } = useContext(ThemeContext);
 
@@ -26,19 +25,19 @@ function Banner() {
         
         <div className=' md:hidden flex mt-10'>
 
-        <AiFillLinkedin fontSize='1.25rem'  color={theme === 'dark' ? 'white' :'black'}/>
-        <BsGithub fontSize='1.25rem'  color={theme === 'dark' ? 'white' :'black'} className='icon' /> 
-<AiFillMail  fontSize='1.25rem'  color={theme === 'dark' ? 'white' :'black'} className='icon' /> 
+       <a href='https://www.linkedin.com/in/aakriti-mehra-7687021b7/' target='_blank'> <AiFillLinkedin fontSize='1.25rem'  color={theme === 'dark' ? 'white' :'black'}/></a>
+        <a href='https://github.com/aakritimehraa' target='_blank'><BsGithub fontSize='1.25rem'  color={theme === 'dark' ? 'white' :'black'} className='icon' /></a>
+<a href='mailto:aakrtiimehrasa@gmail.com' ><AiFillMail  fontSize='1.25rem'  color={theme === 'dark' ? 'white' :'black'} className='icon' /></a> 
 </div>
         <div  className='flex mt-10'>
 
-  <ul className='w-[100%] sm:w-[50%] hidden md:flex justify-between items-center font-semibold text-black dark:text-white '>
-    <li className='one flex justify-around items-center mr-[10px]'><AiFillLinkedin fontSize='1.25rem'  color={theme === 'dark' ? 'white' :'black'}/><p className=''> Linkedin</p>
-</li> 
-<li className='one flex justify-around items-center mr-[10px]'><BsGithub fontSize='1.25rem'  color={theme === 'dark' ? 'white' :'black'} className='icon' /> <p className=' px-2'>Github </p>
-</li> 
-<li className='one flex justify-around items-center '><AiFillMail  fontSize='1.25rem'  color={theme === 'dark' ? 'white' :'black'} className='icon' /> <p className='px-2'> Mail </p>
-</li> 
+  <ul className='w-[100%] sm:w-[50%] hidden md:flex justify-between items-center font-semibold text-white '>
+   <a href='https://www.linkedin.com/in/aakriti-mehra-7687021b7/' target='_blank'><li className='one flex justify-around items-center mr-[10px]'><AiFillLinkedin fontSize='1.25rem'  color='white'/><p className=''> Linkedin</p>
+</li> </a>
+<a href='https://github.com/aakritimehraa' target='_blank'><li className='one flex justify-around items-center mr-[10px]'><BsGithub fontSize='1.25rem'  color='white' className='' /> <p className=' px-2'>Github </p>
+</li> </a>
+<a href='mailto:aakritimehrasa@gmail.com'><li className='one flex justify-around items-center '><AiFillMail  fontSize='1.25rem'  color='white' className='' /> <p className='px-2'> Mail </p>
+</li> </a>
   </ul>
 </div>
     </div>
