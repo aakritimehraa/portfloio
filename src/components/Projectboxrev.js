@@ -13,7 +13,8 @@ function Projectboxrev({description , name, tags , image , link , g}) {
    <p className='sm:text-xl md:leading-[2rem] xl:leading-[3rem] font-[400] md:tracking-[1.4px] mr-[10px]' style={{fontFamily: 'Inter '}}>
    {description}
    </p>
-   <p className='sm:text-xl md:leading-[2rem] xl:leading-[3rem] font-[400] md:tracking-[1.4px]'>  <a href={link} target='_blank'><span className='mr-2 opacity-[0.8]  hover:opacity-[1]'>View Live </span></a>  | <a href={g} target='_blank' ><span className='ml-2 opacity-[0.8]  hover:opacity-[1]'> Github</span></a></p>
+
+   <p className='sm:text-xl md:leading-[2rem] xl:leading-[3rem] font-[400] md:tracking-[1.4px]'>  <a href={link} target='_blank'><span className='mr-2 opacity-[0.8]  hover:opacity-[1]'>View Live </span></a> {g ?  <a href={g} target='_blank' ><span className='ml-2 opacity-[0.8]  hover:opacity-[1]'> Github</span></a>: ''}</p>
 
    <p className='flex lg:justify-start items-center mt-5 mb-2 lg:mr-[20px]'>Made with-</p>
    <ul className='flex lg:justify-start items-center'>
