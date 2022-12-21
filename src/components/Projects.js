@@ -4,6 +4,8 @@ import expense from '../images/1.png'
 import amazon from '../images/2.png'
 import musicplayer from '../images/3.png'
 import web from '../images/4.png'
+import mern from '../images/mern.png'
+
 
 import Projectboxrev from './Projectboxrev'
 
@@ -19,7 +21,7 @@ function Projects() {
 
 </p>
         <div  className='w-[100%] flex justify-start items-center flex-col'>
-
+        <Projectboxrev description='A MERN stack personal dairy website with user authentication and multiple features ' name='YODA' link='https://yodamern.onrender.com/' g='https://github.com/aakritimehraa/pd'  tags={['React' , 'node' , 'mongodb' , 'express' , 'jwt']} image={mern}/>
         <Projectbox description='Tracks and manages income and expense and visualizes with charts made using react-redux' name='Xpense Tracker' link='https://solid-9fffe.web.app/' g='https://github.com/aakritimehraa/expensetracker' tags={['React' , 'redux' , 'charts.js']} image={expense}/>
         <Projectboxrev description='Website i made for my former company where i interned as a front end developer. Made using React , gatsby , Tailwindcss' name='Company Website' link='https://emsy.netlify.app/'  tags={['React' , 'Gatsby' , 'Tailwind css']} image={web}/>
         <Projectbox description='Simple amazon clone, mainly focused on providing functionalities like login/signup ,Shop, add to your cart, and see your total.' name='Amazon Clone' link='https://fir-4310b.web.app/' g='https://github.com/aakritimehraa/Amazon-clonee' tags={['React' , 'Firebase' , 'Material ui']} image={amazon}/>
