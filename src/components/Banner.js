@@ -18,7 +18,7 @@ function Banner() {
         Hey I'm <br></br>
 
         <span className='banner-name leading-[110px] md:text-[80px] lg:text-[96px] text-[40px]'>Aakriti Mehra</span><br></br>
-        I'm a Front-end developer based in Chandigarh, India. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. I am working at a startup as an Associate software developer , I have total 8+ months experience as a full time intern and I've managed to gain a decent amount of experience and valuable knowledge from all different kinds projects i have worked on..
+        I'm a Front-end developer based in Chandigarh, India. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. Currently i work as a Frontend Developer , I have total 1.2+ years experience and I've managed to gain a decent amount of experience and valuable knowledge from all different kinds projects i have worked on..
         </h3> 
 
         <h3 className=' flex items-center dark:text-white mt-[5%]'>Say hi <CgArrowLongRight className='ml-[10px]' /></h3>
