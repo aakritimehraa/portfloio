@@ -7,7 +7,7 @@ const Toggle = () => {
   const { theme, setTheme } = useContext(ThemeContext);
 
   return (
-    <div>
+    <div className='cursor-pointer'>
       {theme === 'dark' ? (
 
         <BsSun onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
