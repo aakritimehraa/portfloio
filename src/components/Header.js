@@ -25,7 +25,7 @@ function Header() {
 
   return (
     <>
-      <div className={`sm:hidden header flex justify-between items-center ${scrolled ? 'fixed top-0 left-0 bg-white shadow-md' : ''}`}>
+      <div className={`sm:hidden header flex justify-between items-center ${scrolled ? 'fixed top-0 left-0 dark:bg-black bg-white shadow-md px-5' : ''} w-[100%]`}>
         <h1 className='py-2 cursor-pointer dark:text-white' style={{ fontFamily: 'Josefin Sans' }}>
           A<sub>M</sub>
         </h1>
@@ -42,7 +42,7 @@ function Header() {
           <p onClick={() => setMenu(false)} className='float-right m-4'>
             <AiOutlineClose fontSize='1.25rem' />
           </p>
-          <ul className='h-[60%] flex justify-around items-center flex-col pr-10 mr-[20px] w-[100%] relative text-gray-900 dark:text-white' style={{ fontFamily: 'Belleza' }}>
+          <ul className='h-[60%] flex justify-around items-center flex-col  mr-[20px] w-[100%] relative text-gray-900 dark:text-white' style={{ fontFamily: 'Belleza' }}>
             <a href='#projects'>
               {' '}
               <li onClick={() => setMenu(false)} className='ml-[4%]  font-semibold  hover:border-pink-100 hover:border-b-2 transition-all'>

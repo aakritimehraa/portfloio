@@ -17,9 +17,9 @@ function Projectboxrev({description , name, tags , image , link , g}) {
    <p className='sm:text-xl md:leading-[2rem] xl:leading-[3rem] font-[400] md:tracking-[1.4px]'>  <a href={link} target='_blank'><span className='mr-2 text-[#ccc] underline italic  hover:text-[#eae]'>View Live </span></a> {g ?  <a href={g} target='_blank' ><span className='ml-2 text-[#ccc] underline italic  hover:text-[#eae]'> Github</span></a>: ''}</p>
 
    <p className='flex lg:justify-start items-center mt-5 mb-2 lg:mr-[20px]'>Made with-</p>
-   <ul className='flex lg:justify-start items-center'>
+   <ul className='flex lg:justify-start items-center flex-wrap'>
        {tags.map(title => {
-           return     <li key={title} className='mr-[20px] p-1 px-3 rounded-[4px] text-white bg-[#1F1E1E]'>{title}</li>
+           return     <li key={title} className='mr-[20px] p-1 px-3 rounded-[4px] text-white bg-[#1F1E1E] mb-5'>{title}</li>
    
        })}
      

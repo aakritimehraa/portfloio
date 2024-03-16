@@ -15,7 +15,7 @@ function Projects() {
     
     
     
-    <div className='w-[100%] mt-[5%]'>
+    <div className='projects w-[100%] mt-[5%]'>
         <h3 id='projects' className='project text-[3.5rem] font-semibold text-[#9845e8] text-center dark:text-[#9845e8]' style={{fontFamily:'Poppins'}}>Projects</h3>
         <p className='text-xl text-center dark:text-white mb-20' style={{fontFamily:'Poppins'}}> Skills grow. So will this portfolio.
 

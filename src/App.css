@@ -3,3 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+.projects{
+  @media only screen and (max-width: 450px) {
+  max-width: 95%;
+  }
+}
