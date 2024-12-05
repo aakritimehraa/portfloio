@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+body{
+  max-width: 100%;
+  margin: auto;
+  background-color: var(--color-bg-secondary);
+}
+
+.banner-name{
+  font-weight: 600;
+
+
+font-family: 'Roboto';
+background: linear-gradient(89.81deg, #9845E8 -1.72%, #33D2FF 54.05%, #DD5789 99.78%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.icon{
+  margin-left: 20px
+}
+.projects-text{
+  font-family: 'Roboto';
+  letter-spacing: 2px;
+    text-transform: capitalize;
+    background: linear-gradient(-45deg, #9845E8, #33D2FF,  #33D2FF, #DD5789);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+
+  
+}
+.one {
+  width: 100%;
+  height: 50px;
+  background-image: linear-gradient(45deg, #ea27d6, #0da0bd);
+  border-image-slice: 1;
+  border-radius: 10px;  
+  padding: 0 10px;
+  transition: box-shadow 0.3s ease; /* Only include box-shadow in the transition */
+}
+
+.one:hover {
+  background: linear-gradient(45deg, #0da0bd, #ea27d6);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust box-shadow as needed */
+}
+
+.input{
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(45deg, #ea27d6, #0da0bd);
+  border-image-slice: 1;
+  border-radius: 10px;  /* will have no effect */  
+}
+.project-box{
+font-family:  'Inter var', sans-serif;
+}
+.menu{
+  background: var(--color-bg-secondary);
+  color: var(--color-text-primary);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left:0;
+ }
+ .menu ul {
+ }
+ .project-box h3{
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(-45deg, #9845E8, #33D2FF,  #33D2FF, #DD5789);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+      -webkit-text-stroke: 2px transparent;
+
+
+ }
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+.dark {
+  --color-bg-primary: #2d3748;
+  --color-bg-secondary: #03060b;
+  --color-bg-blogs: #484848;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #e2e8f0;
+  --color-text-accent: #81e6d9;
+}
+
+.light {
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #ffffff;
+  --color-bg-blogs:#E7E7E7;
+  --color-text-primary: #5e5c5c;
+  --color-text-secondary: #000000;
+  --color-text-accent: #2b6cb0;
+}
