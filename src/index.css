@@ -65,7 +65,6 @@ font-family:  'Inter var', sans-serif;
   color: var(--color-text-primary);
   height: 100%;
   width: 100%;
-  position: fixed;
   top: 0;
   left:0;
  }
